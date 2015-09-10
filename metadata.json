@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "Multi tier VNet with NSGs",
+  "description": "This template deploys a 7 Virtual Networks at 4 tiers, with 3 subnets per tier, 3 Network Security Groups and appropriate security rules to make the FrontEnd subnet a DMZ",
+  "summary": "Install Virtual Network with DMZ Subnet",
+  "githubUsername": "MatthewEckburg",
+  "dateUpdated": "2015-09-01"
+}
