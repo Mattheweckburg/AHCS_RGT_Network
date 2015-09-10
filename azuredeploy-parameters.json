@@ -1,0 +1,85 @@
+{
+	"$schema" : "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion" : "2.0.0.3",
+	"parameters" : {
+		"location" : {
+			"value" : "West US"
+		},
+		"virtualNetworkName1" : {
+			"value" : "Vnet-Core"
+		},
+		"virtualNetworkName2" : {
+			"value" : "Vnet-DevTst"
+		},
+		"virtualNetworkName3" : {
+			"value" : "Vnet-QA"
+		},
+		"virtualNetworkName4" : {
+			"value" : "Vnet-Prd"
+		},
+		"AppSubnet" : {
+			"value" : "10.0.0.0/8"
+		},
+		"Sub-Core" : {
+			"value" : "10.0.0.0/24"
+		},
+		"Sub-Dev" : {
+			"value" : "10.10.0.0/24"
+		},
+		"Sub-Tst" : {
+			"value" : "10.5.0.0/24"
+		},
+		"Sub-QA-DB" : {
+			"value" : "10.2.2.0/24"
+		},
+		"Sub-QA-App" : {
+			"value" : "10.2.1.0/24"
+		},
+		"Sub-QA-WFE" : {
+			"value" : "10.2.0.0/24"
+		},
+		"Sub-QA" : {
+			"value" : "10.2.0.0/16"
+		},
+		"Sub-Prd-DB" : {
+			"value" : "10.1.2.0/24"
+		},
+		"Sub-Prd-App" : {
+			"value" : "10.1.1.0/24"
+		},
+		"Sub-Prd-WFE" : {
+			"value" : "10.1.0.0/24"
+		},		
+		"Sub-Prd" : {
+			"value" : "10.1.0.0/16"
+		},
+		"PrdFENSGName" : {
+			"value" : "NSG-PRD-WFE"
+		},
+		"PrdAppNSGName" : {
+			"value" : "NSG-Prd-App"
+		},
+		"PrdDBNSGName" : {
+			"value" : "NSG-Prd-DB"
+		},
+		"QAFENSGName" : {
+			"value" : "NSG-QA-WFE"
+		},
+		"QAAppNSGName" : {
+			"value" : "NSG-QA-App"
+		},
+		"QADBNSGName" : {
+			"value" : "NSG-QA-DB"
+		},
+		"TstNSGName" : {
+			"value" : "NSG-Tst"
+		},
+		"DevNSGName" : {
+			"value" : "NSG-Dev"
+		},
+		"CoreNSGName" : {
+			"value" : "NSG-Core"
+		}
+	}
+}
+
